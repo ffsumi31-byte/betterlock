@@ -1,0 +1,2 @@
+# betterlock
+nothing special
