@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: blockforge
+    runtime: node
+    buildCommand: npm install
+    startCommand: npm start
+    healthCheckPath: /healthz
+    envVars:
+      - key: ANTHROPIC_API_KEY
+        sync: false
